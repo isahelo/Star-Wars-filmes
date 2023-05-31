@@ -1,0 +1,154 @@
+@media (min-width: 2000px ){
+    .informacoes__secundario .logo__secundario{
+max-width: 300px;
+    }
+
+    .imagem__conteiner{
+        width: 250px;
+    }
+
+    .imagem__conteiner__topo{
+    height: 380px;
+        width: 250px;
+        margin-bottom: 0%;
+    }
+
+    .conteudo__secundario .titulo{
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+
+}
+
+@media (min-width: 1000px){
+    .cabecalho__menu{
+    gap: 280px;
+}
+}
+
+@media (max-width: 1280px){
+    body{
+        padding: 0 40px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .informacoes{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+
+.conteudo2{
+    gap: 15px;
+}
+
+.informacoes .descricao{
+    width: 60%;
+    display: flex;
+    
+
+}
+
+.informacoes .descricao2{
+    width: 60%;
+    display: flex;
+    
+}
+
+.cabecalho__menu__link{
+    margin-left: auto;
+}
+
+@media (min-width:750px ){
+    .cabecalho__menu{
+        gap: 250px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 566px){
+.informacoes__secundario .logo__secundario{
+    padding: 20% 20% 10% 0%;
+}
+@media (max-width: 425px){
+    .informacoes{
+        display: flex;
+    
+    }
+    .conteudo2{
+        gap: 15px;
+    }
+
+    .informacoes .descricao{
+        width: 100%;
+    
+    }
+
+    .informacoes .descricao2{
+        width: 100%;
+    }
+
+    .menu-lateral{
+        position: static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .menu-lateral ul{
+        flex-direction: row;
+    }
+    
+    .conteudo{
+        min-height: 70vh;
+        gap: 50px;
+    }
+
+body{
+    padding: 40px;
+}    
+
+.conteiner__principal{
+    margin-bottom: 40%;
+}
+
+.cabecalho__menu{
+    gap: 70px;
+}
+
+.cabecalho__menu__link{
+    margin-left: 4%;
+    margin-right: 4%;
+    
+} 
+
+.imagem__conteiner{
+width: 150px;
+
+}
+
+.imagem__conteiner__topo{
+    width: 70%;
+    height: 70%;
+    margin-right: 20%;
+}
+
+.conteiner__principal{
+    max-width: 100%;
+}
+
+.logo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.informacoes__secundario .logo__secundario{
+    padding: 20% 100% 10% 0%;
+}
+
+}
+
