@@ -1,0 +1,104 @@
+.cabecalho{
+    padding: 2% 20% 2% 15%;
+    margin: 1% 25% 4% 2%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 90px;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 55px;
+    font-weight: 400;
+    color: rgb(237, 241, 8);
+    cursor: pointer; 
+}
+.cabecalho__menu__link:hover{
+    text-decoration:underline;
+}
+
+@media (min-width: 1000px){
+.cabecalho__menu{
+    gap: 280px;
+ }
+}
+
+@media (max-width: 768px){
+.cabecalho__menu__link{
+    margin-left: auto;
+ }
+}
+@media (min-width:750px ){
+.cabecalho__menu{
+   gap: 250px;
+   margin: auto;
+ }
+}
+
+@media (max-width: 540px){
+.cabecalho__menu__link{
+    display: flex;
+    align-items: center;
+}
+}
+
+@media (max-width: 431px){
+.cabecalho__menu__link{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 45px ;
+}
+.cabecalho .cabecalho__menu{
+    display: flex;
+    gap: 70px;
+    margin-right: 5%;
+}
+}
+@media (max-width: 415px){
+.cabecalho__menu__link{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 0% ;
+}
+.cabecalho .cabecalho__menu{
+    display: flex;
+    gap: 79px;
+}
+}
+
+@media (max-width: 391px){
+.cabecalho .cabecalho__menu{
+    display: flex;
+    gap: 70px;
+}
+}
+
+@media (max-width: 361px){
+.cabecalho .cabecalho__menu{
+    display: flex;
+    gap: 70px;
+    } 
+.cabecalho__menu__link{
+    font-size:35px ;
+}
+}
+
+@media (max-width: 281px){
+.cabecalho__menu__link{
+    font-size: 32px;
+}
+.cabecalho .cabecalho__menu{
+display: flex;
+gap: 35px;
+}
+}
+
+
+
+    
+
+

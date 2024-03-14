@@ -1,0 +1,32 @@
+.rodape{
+    padding: 24px;
+    background-color: rgb(17, 37, 37);
+    text-align: center;
+    color: rgb(235, 242, 245);
+    font-size: 25px;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width:540px ){
+.rodape{
+    width: 90%;
+    margin-left: 5%;
+ }
+}
+
+@media screen and (max-width:415px ){
+.rodape{
+    width: 100%;
+    margin-left: 2%;
+ }
+}
+
+@media screen and (max-width: 280px ){
+.rodape{
+    width: 90%;
+    font-size: 20px;
+    margin-left: 5%;
+ }
+}

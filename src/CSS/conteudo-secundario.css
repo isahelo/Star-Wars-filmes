@@ -1,0 +1,311 @@
+.conteudo__secundario .titulo{
+    color:  rgb(207, 238, 8);
+    background-color: rgb(10, 89, 168);
+    border-radius: 10px;
+    font-size: 50px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top:  25px;
+}
+.informacoes__secundario .separa{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-top: 20px solid rgb(10, 10, 225);
+    margin:auto;
+    
+}
+.informacoes__secundario .logo__secundario{
+    max-width: 350px;
+    filter: invert(1);
+    margin-bottom: 1%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0% 10% 0% 15%;
+}
+
+.imagem__conteiner {
+    width: 30%;
+    margin-left: 30%;
+    margin-bottom: 6%;
+    margin-top: 15%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo__conteiner__primeiro{
+    color:  rgb(182, 89, 36);
+    text-align: center;
+    margin: 3%;
+    font-size: 35px;
+}
+
+.titulo__conteiner__segundo{
+    color:  rgb(81, 62, 100);
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;
+}
+
+.titulo__conteiner__terceiro{
+    color:  #2a4e39;
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;
+}
+
+.titulo__conteiner__quarto{
+    color: rgb(238, 118, 6); 
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;
+}
+
+.titulo__conteiner__quinto{
+    color:  rgb(190, 149, 71);
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;
+}
+
+.titulo__conteiner__sexto{
+    color:  rgb(214, 72, 16);
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;
+}
+
+.titulo__conteiner__setimo{
+    color:  rgb(224, 44, 44);
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;
+}
+
+.titulo__conteiner__oitavo{
+    color:  rgb(44, 158, 224);
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;  
+}
+
+.titulo__conteiner__nono{
+    color:  red;
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;  
+}
+
+.titulo__conteiner__decimo{
+    color:  red;
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;    
+}
+
+.titulo__conteiner__dprimeiro{
+    color:  rgb(236, 42, 42);
+    text-align: center;
+    margin: 4%;
+    font-size: 35px;   
+}
+
+.enredo__texto__primeiro{
+    color: rgb(182, 89, 36);
+    font-size: 28px;
+    text-align: center;
+ }
+
+.enredo__texto__segundo{
+    color:  rgb(80, 53, 107);
+    font-size: 28px;
+    text-align: center;
+}
+
+.enredo__texto{
+    font-size: 30px;
+    text-align: center;
+    color:  #29573c;
+}
+
+.enredo__texto__quarto{
+    color:  rgb(238, 118, 6);
+    font-size: 28px;
+    text-align: center;
+}
+
+.enredo__texto__quinto{
+    color:  rgb(190, 149, 71);
+    font-size: 28px;
+    text-align: center;
+}
+
+.enredo__texto__sexto{
+    color:  rgb(214, 72, 16);
+    font-size: 28px;
+    text-align: center;
+}
+
+.enredo__texto__setimo{
+    color:  rgb(16, 85, 214);
+    font-size: 28px;
+    text-align: center;
+}
+
+.enredo__texto__oitavo{
+    color: rgb(44, 158, 224);
+    font-size: 28px;
+    text-align: center;
+}
+
+.enredo__texto__nono{
+    color:  red;
+    font-size: 28px;
+    text-align: center;
+}
+
+.enredo__texto__decimo{
+    color:  rgb(235, 220, 19);
+    font-size: 28px;
+    text-align: center;
+}
+
+.enredo__texto__dprimeiro{
+    color: rgb(35, 116, 209);
+    font-size: 27px;
+    text-align: center;
+}
+
+.fundo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.fundo .imagem.ativa{
+    display: block;
+    height: 100vh;
+}
+
+@media (min-width: 2000px ){
+.informacoes__secundario .logo__secundario{
+    max-width: 300px;
+ }
+.conteudo__secundario .titulo{
+   margin-top: 1%;
+   margin-bottom: 5%;
+ }
+ .imagem__conteiner{
+    width: 250px;
+ }
+}
+
+@media screen and (max-width:540px ){
+.conteudo__secundario .titulo{
+    font-size: 35px;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 5%;
+ }
+ .conteiner__principal{
+    margin-left: 5%;
+    width: 90%;
+    
+    align-items: center;
+    justify-content: center;
+ }
+ .imagem__conteiner{
+    width: 50%;
+ }
+.informacoes__secundario .separa{
+    margin-left: 5%;
+}
+}
+
+@media (max-width: 431px){
+.conteiner__principal{
+margin-left: 10%;
+width: 80%;
+}
+.informacoes__secundario .separa{
+    margin-left: 5%;
+}
+}
+
+@media (max-width: 425px){
+.informacoes__secundario .logo__secundario{
+    padding: 20% 100% 10% 0%;
+ }
+.conteiner__principal{
+    margin-bottom: 40%;
+    max-width: 100%;
+ }
+.imagem__conteiner{
+    width: 150px;
+ }
+}
+
+@media screen and (max-width:415px ){
+ .conteiner__principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: auto;
+    padding: auto ;
+    min-width: 80%;
+ }
+ .imagem__conteiner{
+    margin-left: 10%;
+    margin-bottom: 15%;
+    width: 80%;
+ }
+.conteudo__secundario .titulo{
+    width: 90vw;
+}
+.informacoes__secundario .separa{
+  margin-left:5%;
+}}
+
+ @media screen and (max-width:280px){  
+ .conteudo__secundario .titulo{
+    font-size: 25px;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1%;
+    margin-top: 0%;
+  }
+  .conteiner__principal{
+    margin-left: 10%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imagem__conteiner{
+    width: 50%;
+  }
+ .informacoes__secundario .separa{
+    margin-left: 5%;
+    width: 90%;
+ }
+ .informacoes__secundario .logo__secundario{
+    width: 0px;
+ }
+ }
+
+ 
